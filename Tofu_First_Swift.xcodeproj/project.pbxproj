@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07298DE7193F012F006ED8F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07298DE6193F012F006ED8F5 /* AppDelegate.swift */; };
+		07298DE9193F012F006ED8F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07298DE8193F012F006ED8F5 /* ViewController.swift */; };
+		07298DEE193F012F006ED8F5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07298DED193F012F006ED8F5 /* Images.xcassets */; };
+		07298DFA193F012F006ED8F5 /* Tofu_First_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07298DF9193F012F006ED8F5 /* Tofu_First_SwiftTests.swift */; };
+		07298E04193F01E5006ED8F5 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07298E03193F01E5006ED8F5 /* ViewController.xib */; };
+		07298E0B193F0C36006ED8F5 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07298E09193F0C36006ED8F5 /* SecondViewController.swift */; };
+		07298E0C193F0C36006ED8F5 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07298E0A193F0C36006ED8F5 /* SecondViewController.xib */; };
+		07298E0E193F1681006ED8F5 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07298E0D193F1681006ED8F5 /* DetailsViewController.swift */; };
+		073E16F8194C40DF0002C313 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 073E16E6194C40DF0002C313 /* AFHTTPRequestOperation.m */; };
+		073E16F9194C40DF0002C313 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 073E16E8194C40DF0002C313 /* AFHTTPRequestOperationManager.m */; };
+		073E16FA194C40DF0002C313 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 073E16EA194C40DF0002C313 /* AFHTTPSessionManager.m */; };
+		073E16FB194C40DF0002C313 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 073E16ED194C40DF0002C313 /* AFNetworkReachabilityManager.m */; };
+		073E16FC194C40DF0002C313 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 073E16EF194C40DF0002C313 /* AFSecurityPolicy.m */; };
+		073E16FD194C40DF0002C313 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 073E16F1194C40DF0002C313 /* AFURLConnectionOperation.m */; };
+		073E16FE194C40DF0002C313 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 073E16F3194C40DF0002C313 /* AFURLRequestSerialization.m */; };
+		073E16FF194C40DF0002C313 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 073E16F5194C40DF0002C313 /* AFURLResponseSerialization.m */; };
+		073E1700194C40DF0002C313 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 073E16F7194C40DF0002C313 /* AFURLSessionManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07298DF4193F012F006ED8F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07298DD9193F012E006ED8F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07298DE0193F012F006ED8F5;
+			remoteInfo = Tofu_First_Swift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07298DE1193F012F006ED8F5 /* Tofu_First_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tofu_First_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07298DE5193F012F006ED8F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07298DE6193F012F006ED8F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		07298DE8193F012F006ED8F5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		07298DED193F012F006ED8F5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		07298DF3193F012F006ED8F5 /* Tofu_First_SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tofu_First_SwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07298DF8193F012F006ED8F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07298DF9193F012F006ED8F5 /* Tofu_First_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tofu_First_SwiftTests.swift; sourceTree = "<group>"; };
+		07298E03193F01E5006ED8F5 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		07298E09193F0C36006ED8F5 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		07298E0A193F0C36006ED8F5 /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		07298E0D193F1681006ED8F5 /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		073E16E5194C40DF0002C313 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		073E16E6194C40DF0002C313 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		073E16E7194C40DF0002C313 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		073E16E8194C40DF0002C313 /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		073E16E9194C40DF0002C313 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		073E16EA194C40DF0002C313 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		073E16EB194C40DF0002C313 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		073E16EC194C40DF0002C313 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		073E16ED194C40DF0002C313 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		073E16EE194C40DF0002C313 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		073E16EF194C40DF0002C313 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		073E16F0194C40DF0002C313 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		073E16F1194C40DF0002C313 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		073E16F2194C40DF0002C313 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		073E16F3194C40DF0002C313 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		073E16F4194C40DF0002C313 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		073E16F5194C40DF0002C313 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		073E16F6194C40DF0002C313 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		073E16F7194C40DF0002C313 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		073E1701194C40F50002C313 /* Tofu_First_Swift-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Tofu_First_Swift-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07298DDE193F012F006ED8F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07298DF0193F012F006ED8F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07298DD8193F012E006ED8F5 = {
+			isa = PBXGroup;
+			children = (
+				07298DE3193F012F006ED8F5 /* Tofu_First_Swift */,
+				07298DF6193F012F006ED8F5 /* Tofu_First_SwiftTests */,
+				07298DE2193F012F006ED8F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07298DE2193F012F006ED8F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07298DE1193F012F006ED8F5 /* Tofu_First_Swift.app */,
+				07298DF3193F012F006ED8F5 /* Tofu_First_SwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07298DE3193F012F006ED8F5 /* Tofu_First_Swift */ = {
+			isa = PBXGroup;
+			children = (
+				073E16E3194C40D30002C313 /* 3rd */,
+				07298DE6193F012F006ED8F5 /* AppDelegate.swift */,
+				07298DE8193F012F006ED8F5 /* ViewController.swift */,
+				07298E03193F01E5006ED8F5 /* ViewController.xib */,
+				07298E09193F0C36006ED8F5 /* SecondViewController.swift */,
+				07298E0A193F0C36006ED8F5 /* SecondViewController.xib */,
+				07298E0D193F1681006ED8F5 /* DetailsViewController.swift */,
+				07298DED193F012F006ED8F5 /* Images.xcassets */,
+				07298DE4193F012F006ED8F5 /* Supporting Files */,
+				073E1701194C40F50002C313 /* Tofu_First_Swift-Bridging-Header.h */,
+			);
+			path = Tofu_First_Swift;
+			sourceTree = "<group>";
+		};
+		07298DE4193F012F006ED8F5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07298DE5193F012F006ED8F5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		07298DF6193F012F006ED8F5 /* Tofu_First_SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				07298DF9193F012F006ED8F5 /* Tofu_First_SwiftTests.swift */,
+				07298DF7193F012F006ED8F5 /* Supporting Files */,
+			);
+			path = Tofu_First_SwiftTests;
+			sourceTree = "<group>";
+		};
+		07298DF7193F012F006ED8F5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07298DF8193F012F006ED8F5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		073E16E3194C40D30002C313 /* 3rd */ = {
+			isa = PBXGroup;
+			children = (
+				073E16E4194C40DF0002C313 /* AFNetworking */,
+			);
+			name = 3rd;
+			sourceTree = "<group>";
+		};
+		073E16E4194C40DF0002C313 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				073E16E5194C40DF0002C313 /* AFHTTPRequestOperation.h */,
+				073E16E6194C40DF0002C313 /* AFHTTPRequestOperation.m */,
+				073E16E7194C40DF0002C313 /* AFHTTPRequestOperationManager.h */,
+				073E16E8194C40DF0002C313 /* AFHTTPRequestOperationManager.m */,
+				073E16E9194C40DF0002C313 /* AFHTTPSessionManager.h */,
+				073E16EA194C40DF0002C313 /* AFHTTPSessionManager.m */,
+				073E16EB194C40DF0002C313 /* AFNetworking.h */,
+				073E16EC194C40DF0002C313 /* AFNetworkReachabilityManager.h */,
+				073E16ED194C40DF0002C313 /* AFNetworkReachabilityManager.m */,
+				073E16EE194C40DF0002C313 /* AFSecurityPolicy.h */,
+				073E16EF194C40DF0002C313 /* AFSecurityPolicy.m */,
+				073E16F0194C40DF0002C313 /* AFURLConnectionOperation.h */,
+				073E16F1194C40DF0002C313 /* AFURLConnectionOperation.m */,
+				073E16F2194C40DF0002C313 /* AFURLRequestSerialization.h */,
+				073E16F3194C40DF0002C313 /* AFURLRequestSerialization.m */,
+				073E16F4194C40DF0002C313 /* AFURLResponseSerialization.h */,
+				073E16F5194C40DF0002C313 /* AFURLResponseSerialization.m */,
+				073E16F6194C40DF0002C313 /* AFURLSessionManager.h */,
+				073E16F7194C40DF0002C313 /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07298DE0193F012F006ED8F5 /* Tofu_First_Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07298DFD193F012F006ED8F5 /* Build configuration list for PBXNativeTarget "Tofu_First_Swift" */;
+			buildPhases = (
+				07298DDD193F012F006ED8F5 /* Sources */,
+				07298DDE193F012F006ED8F5 /* Frameworks */,
+				07298DDF193F012F006ED8F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tofu_First_Swift;
+			productName = Tofu_First_Swift;
+			productReference = 07298DE1193F012F006ED8F5 /* Tofu_First_Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		07298DF2193F012F006ED8F5 /* Tofu_First_SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07298E00193F012F006ED8F5 /* Build configuration list for PBXNativeTarget "Tofu_First_SwiftTests" */;
+			buildPhases = (
+				07298DEF193F012F006ED8F5 /* Sources */,
+				07298DF0193F012F006ED8F5 /* Frameworks */,
+				07298DF1193F012F006ED8F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07298DF5193F012F006ED8F5 /* PBXTargetDependency */,
+			);
+			name = Tofu_First_SwiftTests;
+			productName = Tofu_First_SwiftTests;
+			productReference = 07298DF3193F012F006ED8F5 /* Tofu_First_SwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07298DD9193F012E006ED8F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "iBoard .Technology";
+				TargetAttributes = {
+					07298DE0193F012F006ED8F5 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					07298DF2193F012F006ED8F5 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 07298DE0193F012F006ED8F5;
+					};
+				};
+			};
+			buildConfigurationList = 07298DDC193F012E006ED8F5 /* Build configuration list for PBXProject "Tofu_First_Swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07298DD8193F012E006ED8F5;
+			productRefGroup = 07298DE2193F012F006ED8F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07298DE0193F012F006ED8F5 /* Tofu_First_Swift */,
+				07298DF2193F012F006ED8F5 /* Tofu_First_SwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07298DDF193F012F006ED8F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07298E04193F01E5006ED8F5 /* ViewController.xib in Resources */,
+				07298DEE193F012F006ED8F5 /* Images.xcassets in Resources */,
+				07298E0C193F0C36006ED8F5 /* SecondViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07298DF1193F012F006ED8F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07298DDD193F012F006ED8F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07298E0B193F0C36006ED8F5 /* SecondViewController.swift in Sources */,
+				073E16FC194C40DF0002C313 /* AFSecurityPolicy.m in Sources */,
+				07298DE9193F012F006ED8F5 /* ViewController.swift in Sources */,
+				073E16F9194C40DF0002C313 /* AFHTTPRequestOperationManager.m in Sources */,
+				073E16FD194C40DF0002C313 /* AFURLConnectionOperation.m in Sources */,
+				073E16F8194C40DF0002C313 /* AFHTTPRequestOperation.m in Sources */,
+				07298DE7193F012F006ED8F5 /* AppDelegate.swift in Sources */,
+				073E16FE194C40DF0002C313 /* AFURLRequestSerialization.m in Sources */,
+				073E16FA194C40DF0002C313 /* AFHTTPSessionManager.m in Sources */,
+				073E16FB194C40DF0002C313 /* AFNetworkReachabilityManager.m in Sources */,
+				073E16FF194C40DF0002C313 /* AFURLResponseSerialization.m in Sources */,
+				073E1700194C40DF0002C313 /* AFURLSessionManager.m in Sources */,
+				07298E0E193F1681006ED8F5 /* DetailsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07298DEF193F012F006ED8F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07298DFA193F012F006ED8F5 /* Tofu_First_SwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07298DF5193F012F006ED8F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07298DE0193F012F006ED8F5 /* Tofu_First_Swift */;
+			targetProxy = 07298DF4193F012F006ED8F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		07298DFB193F012F006ED8F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		07298DFC193F012F006ED8F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07298DFE193F012F006ED8F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Tofu_First_Swift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Tofu_First_Swift/Tofu_First_Swift-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		07298DFF193F012F006ED8F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Tofu_First_Swift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Tofu_First_Swift/Tofu_First_Swift-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		07298E01193F012F006ED8F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Tofu_First_Swift.app/Tofu_First_Swift";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Tofu_First_SwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		07298E02193F012F006ED8F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Tofu_First_Swift.app/Tofu_First_Swift";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Tofu_First_SwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07298DDC193F012E006ED8F5 /* Build configuration list for PBXProject "Tofu_First_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07298DFB193F012F006ED8F5 /* Debug */,
+				07298DFC193F012F006ED8F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07298DFD193F012F006ED8F5 /* Build configuration list for PBXNativeTarget "Tofu_First_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07298DFE193F012F006ED8F5 /* Debug */,
+				07298DFF193F012F006ED8F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07298E00193F012F006ED8F5 /* Build configuration list for PBXNativeTarget "Tofu_First_SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07298E01193F012F006ED8F5 /* Debug */,
+				07298E02193F012F006ED8F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07298DD9193F012E006ED8F5 /* Project object */;
+}
